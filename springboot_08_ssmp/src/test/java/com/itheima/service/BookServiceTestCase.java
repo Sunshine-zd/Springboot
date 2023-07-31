@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 public class BookServiceTestCase {
 
     @Autowired
-    private BookService bookService;
+    private IBookService bookService;
 
     @Test
     void testGetById(){
