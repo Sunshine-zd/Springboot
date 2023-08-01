@@ -1,0 +1,6 @@
+servers:
+  IPAddress: 192.168.0.1
+  port: 80
+  timeout: -1
+  serverTimeout: 3
+  dataSize: 10

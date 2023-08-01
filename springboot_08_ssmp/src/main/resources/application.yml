@@ -1,7 +1,4 @@
-server:
-  port: 80
-
-
+# 公共配置
 mybatis-plus:
   global-config:
     db-config:
@@ -17,4 +14,9 @@ spring:
     url: jdbc:mysql://localhost:3306/ssm_db
     username: root
     password: zd004137
+  profiles:
+    active: pro
+
+server:
+  port: 8080
 

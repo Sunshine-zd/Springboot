@@ -1,0 +1,22 @@
+logging:
+  #?????????
+  group:
+    ebank: com.itheima.controller,com.itheima.service,com.itheima.dao
+    iservice: com.alibaba
+  level:
+    root: info
+    #??????????
+    com.itheima.controller: debug
+    # ?????????
+    ebank: warn
+    #?????????
+  pattern:
+    console: "%d - %m %n"
+  file:
+    name: server.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      file-name-pattern: server.%d{yyyy-MM-dd}.%i.log
+
+
